@@ -1,8 +1,8 @@
-# RecToM: A Benchmark for Evaluating Machine Theory of Mind in Recommendation Dialogues
+# RecToM: A Benchmark for Evaluating Machine Theory of Mind in LLM-based Conversational Recommender Systems
 
 This repository contains the official dataset, evaluation scripts, and benchmark details for our AAAI-accepted paper:
 
-> **RecToM: A Benchmark for Evaluating Machine Theory of Mind in Recommendation Dialogues**
+> **RecToM: A Benchmark for Evaluating Machine Theory of Mind in LLM-based Conversational Recommender Systems**
 
 ---
 
@@ -50,11 +50,25 @@ RecToM contains **20,524** expertly annotated dialogue–query pairs across **10
 *Table: Statistics of question types and option distributions in RecToM.*
 
 
-
 ## 🔧 Evaluation
 
-(You can fill in your evaluation script usage, for example:)
+You can run the evaluation using the provided script:
 
 ```bash
-bash 12_run.sh
+bash evaluate/12_run.sh
+```
 
+## 📚 Citation
+
+If you use **RecToM** in your research, please cite our paper:
+
+```bibtex
+@inproceedings{li2026rectom,
+  title     = {RecToM: A Benchmark for Evaluating Machine Theory of Mind in LLM-based Conversational Recommender Systems},
+  author    = {Li, Mengfan and Shi, Xuanhua and Deng, Yang},
+  booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence (AAAI-26)},
+  year      = {2026},
+  publisher = {AAAI Press},
+  note      = {To appear}
+}
+```
